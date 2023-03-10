@@ -1,0 +1,975 @@
+/* TABLE DES MATIERES */
+/* GLOBAL */
+/* BODY */
+/* HEADER */
+/* MAIN */
+/* FOOTER */
+/* RESPONSIVE : 
+    - ECRAN DE 1400PX DE LARGE
+    - ECRAN DE 1024PX DE LARGE
+    - ECRAN DE 768PX DE LARGE
+    -/* Les règles CSS suivantes vont s'appliquer à tous les écrans ayant une largeur supérieur et égale à 320px et inférieur à 580px*/
+/* JUSQU'A 320PX */
+
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body {
+    background-color: #e5e5e5;
+}
+
+/* HEADER */
+header {
+    background-color: #345765;
+
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        max-width: 1400px;
+
+        img {
+            width: 124px;
+            height: 80px;
+            object-fit: cover;
+            padding: 0.625rem 0;
+        }
+
+        nav {
+            ul {
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+            }
+
+            a {
+                color: white;
+                display: block;
+                padding: 0.625rem 1.25rem;
+                text-decoration: none;
+                font-family: 'Lato', sans-serif;
+                font-size: 1.25rem;
+
+
+                &:hover {
+                    background-color: #056286;
+                }
+            }
+        }
+    }
+}
+
+/* MAIN */
+main {
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 7rem;
+    margin-bottom: 8.125rem;
+
+    h1 {
+        font-size: 2.25rem;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1.6px;
+        color: #34a58a;
+        text-transform: uppercase;
+        padding-bottom: 3.5rem;
+        padding-left: 0.625rem;
+    }
+
+    #billard {
+        width: 100%;
+        height: 565px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 2.063rem;
+    }
+
+    section {
+        display: flex;
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.25rem;
+            letter-spacing: 1.6px;
+            color: #6b5b54;
+        }
+
+        p {
+            font-family: 'Lato', sans-serif;
+            font-size: 1.25rem;
+            letter-spacing: 1.6px;
+            color: black;
+        }
+
+        iframe {
+            width: 547px;
+            height: 552px;
+            border-radius: 10px;
+            border: 2px solid white;
+        }
+
+        a {
+            font-size: 1.25rem;
+            font-family: 'Lato', sans-serif;
+            color: #34a58a;
+        }
+    }
+
+    #Presentation {
+        h2 {
+            margin-bottom: 3.25rem;
+        }
+    }
+
+    #Coordonnee {
+        margin-top: 7rem;
+
+        h2 {
+            margin-bottom: 1.313rem;
+        }
+
+        .localisation {
+            padding-bottom: 1.813rem;
+
+            img {
+                width: 16px;
+                height: 20px;
+                color: #34a58a;
+                margin-right: 1.313rem;
+            }
+
+            p {
+                color: #34a58a;
+            }
+        }
+
+        .mail {
+            padding-bottom: 1.313rem;
+
+            img {
+                width: 25px;
+                height: 20px;
+                color: #34a58a;
+                margin-right: 0.625rem;
+            }
+
+            a {
+                color: #34a58a;
+            }
+        }
+
+        .Telephone {
+            padding-bottom: 1.313rem;
+
+            img {
+                width: 21px;
+                height: 20px;
+                color: #34a58a;
+                margin-right: 0.813rem;
+            }
+
+            a {
+                color: #34a58a;
+            }
+        }
+    }
+
+    #Carte {
+        margin-left: 5.813rem;
+
+        h2 {
+            padding-bottom: 2.938rem;
+        }
+    }
+}
+
+.localisation {
+    display: flex;
+    align-items: flex-start;
+
+    img {
+        object-fit: cover;
+    }
+}
+
+.Telephone {
+    display: flex;
+    align-items: flex-start;
+
+    img {
+        object-fit: cover;
+    }
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.mail {
+    display: flex;
+    align-items: flex-start;
+
+    img {
+        object-fit: cover;
+    }
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+/* FOOTER */
+footer {
+    background-color: #345765;
+
+    h3 {
+        font-size: 1.375rem;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1.6px;
+        color: white;
+        text-decoration: underline;
+        padding-bottom: 2rem;
+    }
+
+    a {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.25rem;
+        letter-spacing: 1.6px;
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.25rem;
+        letter-spacing: 1.6px;
+        color: white;
+    }
+
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1400px;
+        margin: auto;
+        padding-top: 6.125rem;
+        padding-bottom: 4.375rem;
+    }
+
+    #CD {
+        .Telephone {
+            padding-bottom: 1rem;
+
+            img {
+                margin-right: 1rem;
+                width: 20px;
+                height: 20px;
+                color: white;
+            }
+        }
+
+        .mail {
+            padding-bottom: 2rem;
+
+            img {
+                margin-right: 0.813rem;
+                width: 24px;
+                height: 20px;
+                color: white;
+            }
+        }
+
+        .localisation {
+            img {
+                margin-right: 1.063rem;
+                width: 20px;
+                height: 20px;
+                color: white;
+            }
+        }
+    }
+
+    #IA {
+        #a1 {
+            display: flex;
+
+            a {
+                position: relative;
+                padding: 0.625rem;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    height: 50%;
+                    width: 2px;
+                    background-color: white;
+                    top: 22px;
+                    right: 0;
+                    transform: translateY(-50%);
+                }
+
+                &:first-of-type {
+                    padding-left: 0;
+                }
+
+                &:last-of-type::after {
+                    display: none;
+                }
+            }
+        }
+
+        #a2 {
+            display: flex;
+            align-items: center;
+
+            a {
+                position: relative;
+                padding: 0.625rem;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    height: 50%;
+                    width: 2px;
+                    background-color: white;
+                    top: 22px;
+                    right: 0;
+                    transform: translateY(-50%);
+                }
+
+                &:last-of-type::after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    #image {
+        display: flex;
+        flex-direction: column;
+
+        #Aisne {
+            width: 115px;
+            height: 115px;
+            margin-bottom: 0.625rem;
+            object-fit: cover;
+        }
+
+        #logo {
+            width: 115px;
+            height: 121px;
+            object-fit: cover;
+        }
+    }
+
+    hr {
+        border: 2px solid white;
+    }
+
+    #district {
+        font-size: 1.25rem;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 1.5px;
+        text-align: center;
+        color: white;
+        margin-top: 1.313rem;
+        padding-bottom: 1.188rem;
+    }
+}
+
+/* RESPONSIVE */
+/* Les règles CSS suivantes vont s'appliquer à tous les écrans possèdant une largeur en dessous de 1400px*/
+@media screen and (max-width: 1400px) {
+    header {
+        #header {
+            margin-right: 1.25rem;
+        }
+
+        a {
+            padding: 1.813rem 0.875rem;
+        }
+    }
+
+    main {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        margin-top: 4.875rem;
+        margin-bottom: 5.688rem;
+
+        h1 {
+            font-size: 1.75rem;
+            padding-bottom: 2.488rem;
+            padding-left: 0.625rem;
+        }
+
+        #billard {
+            height: 395px;
+            margin-bottom: 1.438rem;
+        }
+
+        section {
+            h2 {
+                font-size: 1.563rem;
+            }
+
+            p {
+                font-size: 0.875rem;
+            }
+
+            iframe {
+                width: 382px;
+                height: 386px;
+            }
+
+            a {
+                font-size: 0.875rem;
+            }
+        }
+
+        #Presentation {
+            h2 {
+                margin-bottom: 2.25rem;
+            }
+        }
+
+        #Coordonnee {
+            margin-top: 4.875rem;
+
+            h2 {
+                margin-bottom: 0.875rem;
+            }
+
+            .localisation {
+                padding-bottom: 1.25rem;
+
+                img {
+                    width: 11px;
+                    height: 14px;
+                    margin-right: 0.875rem;
+                }
+            }
+
+            .mail {
+                padding-bottom: 0.875rem;
+
+                img {
+                    width: 17px;
+                    height: 14px;
+                    margin-right: 0.625rem;
+                }
+            }
+
+            .Telephone {
+                padding-bottom: 0.875rem;
+
+                img {
+                    width: 14px;
+                    height: 14px;
+                    margin-right: 0.625rem;
+                }
+            }
+        }
+
+        #Carte {
+            margin-left: 4.063rem;
+
+            h2 {
+                padding-bottom: 2.063rem;
+            }
+        }
+    }
+
+    footer {
+        h3 {
+            font-size: 0.875rem;
+            padding-bottom: 1.375rem;
+        }
+
+        a {
+            font-size: 0.875rem;
+        }
+
+        p {
+            font-size: 0.875rem;
+        }
+
+        #footer {
+            margin-left: 1.25rem;
+            margin-right: 1.25rem;
+            padding-top: 4.25rem;
+            padding-bottom: 3.063rem;
+        }
+
+        #CD {
+            .Telephone {
+                padding-bottom: 0.625rem;
+
+                img {
+                    margin-right: 0.625rem;
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+
+            .mail {
+                padding-bottom: 1.375rem;
+
+                img {
+                    margin-right: 0.625rem;
+                    width: 11px;
+                    height: 14px;
+                }
+            }
+
+            .localisation {
+                img {
+                    margin-right: 1.063rem;
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+        }
+
+        #IA {
+            #a1 {
+                a {
+                    position: relative;
+                    padding: 7px;
+
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        height: 50%;
+                        width: 2px;
+                        background-color: white;
+                        top: 15px;
+                        right: 0;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+
+            #a2 {
+                a {
+                    position: relative;
+                    padding: 7px;
+
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        height: 50%;
+                        width: 2px;
+                        background-color: white;
+                        top: 15px;
+                        right: 0;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
+
+        #image {
+
+            #Aisne {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 0.625rem;
+            }
+
+            #logo {
+                width: 80px;
+                height: 84px;
+            }
+        }
+
+        #district {
+            font-size: 0.875rem;
+            margin-top: 0.875rem;
+            padding-bottom: 0.813rem;
+        }
+    }
+}
+
+/* Les règles CSS suivantes vont s'appliquer à tous les écrans possèdant une largeur en dessous de 1024 px*/
+@media screen and (max-width: 1024px) {
+    header {
+        a {
+            padding: 1.75rem 0.875rem;
+        }
+       
+    }
+
+    main {
+        margin-top: 4.875rem;
+        margin-bottom: 5.688rem;
+
+        h1 {
+            font-size: 1.75rem;
+            padding-bottom: 2.488rem;
+            padding-left: 0.5rem;
+        }
+
+        #billard {
+            height: 395px;
+            margin-bottom: 1.438rem;
+        }
+
+        section {
+            h2 {
+                font-size: 1.653rem;
+            }
+
+            p {
+                font-size: 0.875rem;
+            }
+
+            iframe {
+                width: 382px;
+                height: 386px;
+            }
+
+            a {
+                font-size: 0.875rem;
+            }
+        }
+
+        #Presentation {
+            h2 {
+                margin-bottom: 2.25rem;
+            }
+        }
+
+        #Coordonnee {
+            margin-top: 4.875rem;
+
+            h2 {
+                margin-bottom: 0.875rem;
+            }
+
+            .localisation {
+                padding-bottom: 1.25rem;
+
+                img {
+                    width: 11px;
+                    height: 14px;
+                    margin-right: 1rem;
+                }
+            }
+
+            .mail {
+                padding-bottom: 0.875rem;
+
+                img {
+                    width: 17px;
+                    height: 14px;
+                    margin-right: 0.625rem;
+                }
+            }
+
+            .Telephone {
+                padding-bottom: 0.875rem;
+
+                img {
+                    width: 14px;
+                    height: 14px;
+                    margin-right: 0.625rem;
+                }
+            }
+        }
+
+        #Carte {
+            margin-left: 4.063rem;
+
+            h2 {
+                padding-bottom: 322.063rem;
+            }
+        }
+    }
+
+    footer {
+        h3 {
+            font-size: 0.938rem;
+            padding-bottom: 1.25rem;
+        }
+
+        a {
+            font-size: 0.875rem;
+        }
+
+        p {
+            font-size: 0.875rem;
+        }
+
+        #footer {
+            padding-top: 4.25rem;
+            padding-bottom: 3.063rem;
+        }
+
+        #CD {
+            .Telephone {
+                padding-bottom: 0.625rem;
+
+                img {
+                    margin-right: 0.625rem;
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+
+            .mail {
+                padding-bottom: 1.25rem;
+
+                img {
+                    margin-right: 0.625rem;
+                    width: 16px;
+                    height: 14px;
+                }
+            }
+
+            .localisation {
+                img {
+                    margin-right: 1.063rem;
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+        }
+
+        #IA {
+            #a1 {
+                a {
+                    position: relative;
+                    padding: 0.625rem;
+
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        height: 50%;
+                        width: 2px;
+                        background-color: white;
+                        top: 15px;
+                        right: 0;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+
+            #a2 {
+                a {
+                    position: relative;
+                    padding: 0.625rem;
+
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        height: 50%;
+                        width: 2px;
+                        background-color: white;
+                        top: 15px;
+                        right: 0;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
+
+        #image {
+
+            #Aisne {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 0.5rem;
+            }
+
+            #logo {
+                width: 80px;
+                height: 84px;
+            }
+        }
+
+        #district {
+            font-size: 0.875rem;
+            margin-top: 0.875rem;
+            padding-bottom: 0.938rem;
+        }
+    }
+}
+
+/* RESPONSIVE */
+/* Les règles CSS suivantes vont s'appliquer à tous les écrans possèdant une largeur en dessous de 768 px*/
+@media screen and (max-width: 768px) {
+    header{
+        nav {
+            ul {
+                width: 45px;
+                height: 30px;
+                border-top: 2px solid white;
+                border-bottom: 2px solid white;
+                position: relative;
+                margin-right: 1.25rem;
+
+                &::after {
+                    content: "";
+                    top: 50%;
+                    height: 2px;
+                    background-color: white;
+                    width: 100%;
+                    position: absolute;
+                    transform: translateY(-50%);
+                }
+            }
+
+            li {
+                display: none;
+            }
+        }
+    }
+    main {
+        #billard {
+            height: 214px;
+        }
+
+        section {
+            display: block;
+
+            p {
+                font-size: 0.625rem;
+            }
+
+            iframe {
+                width: 100%;
+                height: 200px;
+            }
+
+            a {
+                font-size: 0.625rem;
+            }
+        }
+
+        #Presentation {
+            h2 {
+                margin-right: 0.938rem;
+            }
+        }
+
+        #Coordonnee {
+            margin-top: 4.875rem;
+
+            h2 {
+                margin-right: 0.938rem;
+            }
+
+            .localisation {
+                padding-bottom: 1.25rem;
+
+                img {
+                    width: 11px;
+                    height: 14px;
+                    margin-right: 0.938rem;
+                }
+            }
+
+            .mail {
+                padding-bottom: 0.875rem;
+
+                img {
+                    width: 17px;
+                    height: 14px;
+                    margin-right: 0.625rem;
+                }
+            }
+
+            .Telephone {
+                padding-bottom: 0.875rem;
+
+                img {
+                    width: 14px;
+                    height: 14px;
+                    margin-right: 0.625rem;
+                }
+            }
+        }
+
+        #Carte {
+            margin-left: 0;
+
+            h2 {
+                padding-bottom: 0.625rem;
+            }
+        }
+    }
+
+    footer {
+        #footer {
+            margin-left: 1.25rem;
+            margin-right: 1.25rem;
+            display: block;
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+            text-align: center;
+        }
+        .mail {
+            justify-content: center;
+            img {
+                width: 16px;
+            }
+        }
+        .Telephone{
+            justify-content: center;
+
+        }
+        .localisation{
+            justify-content: center;
+
+        }
+        #a1{
+            justify-content: center;
+
+        }
+        #a2{
+            justify-content: center;
+
+        }
+        #image{
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+
+}
+
+/* Les règles CSS suivantes vont s'appliquer à tous les écrans ayant une largeur supérieur et égale à 320px et inférieur à 580px*/
+@media screen and (min-width: 320px) and (max-width: 580px){
+    main{
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        #billard{
+            height: 120px;
+        }
+        #Coordonnee{
+            margin-top: 1.25rem;
+        }
+    }
+    footer{
+        #footer{
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    }
+}
