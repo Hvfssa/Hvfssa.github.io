@@ -1,0 +1,111 @@
+/* TABLE DES MATIERES */
+/* GLOBAL */
+/* HEADER */
+/* MAIN  */
+/* FOOTER  */
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY */
+body {
+  background: linear-gradient(#DEB887, #FFE4C4, #FAEBD7, #FFE4C4, #DEB887);
+}
+
+/* HEADER */
+header h1 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.5px;
+  color: black;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+header h1:hover {
+  background: linear-gradient(#DEB887, #FFE4C4, #FAEBD7, #FFE4C4, #DEB887);
+}
+
+/* MAIN */
+main h2 {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.5px;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  text-align: center;
+}
+main h2:hover {
+  background-color: white;
+}
+main p {
+  font-size: 20px;
+  font-family: "Cardo", serif;
+  letter-spacing: 1.5px;
+  padding: 10px;
+  text-align: center;
+}
+main a {
+  font-size: 20px;
+  font-family: "Cardo", serif;
+  letter-spacing: 1.5px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+main img {
+  width: 40px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+main .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+footer {
+  max-width: 1024px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer form {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer form .input {
+  display: flex;
+  flex-direction: column;
+}
+footer form .input label {
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Cardo", serif;
+}
+footer form .input input {
+  padding: 11px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+footer form .input textarea {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+footer form #message {
+  padding-left: 14px;
+}
+
+/*# sourceMappingURL=contact.css.map */

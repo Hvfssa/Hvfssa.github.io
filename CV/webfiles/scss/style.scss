@@ -1,0 +1,177 @@
+/* TABLE DES MATIERES */
+/* GLOBAL 9 à 13*/
+/* HEADER 15 à 58*/
+/* MAIN  60 à 114*/
+/* FOOTER  117 à 157*/
+/* RESPONSIVE */
+/* TOUS LES ECRANS AVEC UNE LARGEUR DE
+  - 1024px 
+  - 768px
+  ET UNE LARGEUR MINIMAL DE 375px*/
+
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body {
+    background: linear-gradient(#DEB887, #FFE4C4, #FAEBD7, #FFE4C4, #DEB887);
+}
+
+/* HEADER */
+header {
+    #header {
+        max-width: 1024px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            width: 60px;
+            height: 50px;
+            padding: 10px;
+            object-fit: cover;
+        }
+
+        nav {
+            ul {
+                display: flex;
+            }
+
+            li {
+                list-style: none;
+            }
+
+            a {
+                color: black;
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                font-size: 14px;
+                font-family: 'Cardo', serif;
+                text-transform: uppercase;
+
+                &:hover {
+                    background: linear-gradient(#DEB887, #FFE4C4);
+                }
+            }
+        }
+    }
+}
+
+/* MAIN */
+main {
+    max-width: 1024px;
+    margin: auto;
+
+    #Principale {
+        padding: 200px;
+        text-align: center;
+
+        h1 {
+            font-size: 40px;
+            letter-spacing: 1.5px;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            color: black;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 30px;
+            letter-spacing: 1.5px;
+            font-family: 'Cardo', serif;
+            color: black;
+        }
+    }
+
+    #Moi {
+        padding: 30px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+        img {
+            width: 900px;
+            height: 450px;
+            object-fit: cover;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: black;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+            letter-spacing: 1.5px;
+            color: black;
+            font-family: 'Cardo', serif;
+            text-align: center;
+        }
+    }
+}
+
+/* RESPONSIVE */
+/* LES REGLES CSS SUIVANTES VONT S'APPLIQUER A TOUS LES ECRANS AYANT UNE LARGEUR MAXIMAL DE 1024 PX*/
+@media screen and (max-width: 1024px) and (min-width: 375px){
+    header {
+        #header {
+            padding-left: 20px;
+            padding-right: 20px;
+            nav{
+                a{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+/* LES REGLES CSS SUIVANTES VONT S'APPLIQUER A TOUS LES ECRANS AYANT UNE LARGEUR MAXIMAL DE 768PX*/
+@media screen and (max-width: 768px) and (min-width: 375px){
+    header{
+        #header{
+            nav{
+                a{
+                    font-size: 9px;
+                }
+            }
+        }
+    }
+    main{
+        #Principale{
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        #Moi{
+            h2{
+                font-size: 26px
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+    footer{
+        form{
+            .input{
+                label{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
