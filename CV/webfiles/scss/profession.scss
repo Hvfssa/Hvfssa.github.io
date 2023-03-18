@@ -1,0 +1,121 @@
+/* TABLE DES MATIERES */
+/* GLOBAL            */
+/* BODY             */
+/* HEADER          */
+/* MAIN           */
+
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body {
+    background: linear-gradient(#DEB887, #FFE4C4, #FAEBD7, #FFE4C4, #DEB887);
+}
+
+/* HEADER */
+header {
+    h1 {
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1.5px;
+        color: black;
+        text-align: center;
+        padding: 40px;
+        border-radius: 10px;
+        text-transform: uppercase;
+
+        &:hover {
+            background: linear-gradient(#DEB887, #FFE4C4, #FAEBD7, #FFE4C4, #DEB887);
+        }
+    }
+}
+
+/* MAIN */
+main {
+    #STAGE {
+        h2 {
+            font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 1.5px;
+            padding: 10px;
+            text-transform: uppercase;
+            border-radius: 10px;
+            text-align: center;
+            &:hover{
+                background-color: white;
+
+            }
+        }
+        time{
+            font-size: 20px;
+            letter-spacing: 1.5px;
+            font-family: 'Cardo', serif;
+            padding: 5px;
+        }
+        h3{
+            font-size: 26px;
+            font-family: 'Cardo', serif;
+            letter-spacing: 1.5px;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+        #title{
+            display: flex;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+        ul{
+            text-align: center;
+            li{
+                font-size: 16px;
+                font-family: 'Cardo', serif;
+                letter-spacing: 1.5px;
+            }
+        }
+    }
+    .localisation{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 20px;
+            height: 25px;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+        p{
+            font-size: 20px;
+            letter-spacing: 1.5px;
+            font-family: 'Cardo', serif;
+        }
+    }
+    #Bénévolat{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        h2 {
+            font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 1.5px;
+            padding: 10px;
+            text-transform: uppercase;
+            border-radius: 10px;
+            text-align: center;
+            &:hover{
+                background-color: white;
+
+            }
+        }
+        ul{
+            text-align: center;
+            li{
+                font-size: 16px;
+                font-family: 'Cardo', serif;
+                letter-spacing: 1.5px;
+            }
+        }
+    }
+}

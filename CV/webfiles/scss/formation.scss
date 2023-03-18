@@ -1,0 +1,106 @@
+/* TABLE DES MATIERES */
+/* GLOBAL 9 à 13 */
+/* BODY 15 à 18*/
+/* HEADER 20 à 30*/
+/* MAIN 38 à 98 */
+/* RESPONSIVE */
+/* TOUS LES ECRANS AVEC UNE LARGEUR DE 1024px */
+
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body{
+    background: linear-gradient(#DEB887, #FFE4C4, #FAEBD7, #FFE4C4, #DEB887);
+}
+
+/* HEADER */
+header{
+    h1{
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1.5px;
+        color: black;
+        text-align: center;
+        padding: 40px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        &:hover{
+            background: linear-gradient(#DEB887, #FFE4C4, #FAEBD7, #FFE4C4, #DEB887);
+        }
+    }
+}
+
+/* MAIN */
+main{
+    .Etude{
+        display: flex;
+        margin-bottom: 50px;
+        max-width: 1024px;
+        margin: auto;
+        .etudee{
+            text-align: center;
+            h2{
+                font-size: 30px;
+                font-family: 'Montserrat', sans-serif;
+                letter-spacing: 1.5px;
+                padding: 10px;
+                text-transform: uppercase;
+            }
+            time{
+                font-size: 26px;
+                letter-spacing: 1.5px;
+                font-family: 'Cardo', serif;
+            }
+        }
+        img{
+            width: 150px;
+            height: 110px;
+            object-fit: cover;
+            margin-right: 50px;
+        }
+    }
+    .localisation{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        img{
+            width: 20px;
+            height: 25px;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+        p{
+            font-size: 20px;
+            letter-spacing: 1.5px;
+            font-family: 'Cardo', serif;
+        }
+    }
+    .diplome{
+        display: flex;
+        padding: 10px;
+        img{
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+        p{
+            font-size: 20px;
+            font-family: 'Cardo', serif;
+            letter-spacing: 1.5px;
+        }
+    }
+}
+
+/* RESPONSIVE */
+/* LES REGLES CSS SUIVANTES VONT S'APPLIQUER A TOUS LES ECRANS AYANT UNE LARGEUR MAXIMAL DE 1024 PX*/
+@media screen and (max-width: 1024px){
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
