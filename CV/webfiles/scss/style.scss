@@ -1,8 +1,7 @@
 /* TABLE DES MATIERES */
-/* GLOBAL 9 à 13*/
-/* HEADER 15 à 58*/
-/* MAIN  60 à 114*/
-/* FOOTER  117 à 157*/
+/* GLOBAL */
+/* HEADER */
+/* MAIN  */
 /* RESPONSIVE */
 /* TOUS LES ECRANS AVEC UNE LARGEUR DE
   - 1024px 
@@ -32,7 +31,7 @@ header {
         img {
             width: 60px;
             height: 50px;
-            padding: 10px;
+            padding: 0.625rem;
             object-fit: cover;
         }
 
@@ -48,9 +47,9 @@ header {
             a {
                 color: black;
                 display: block;
-                padding: 10px;
+                padding: 0.625rem;
                 text-decoration: none;
-                font-size: 14px;
+                font-size: 0.875rem;
                 font-family: 'Cardo', serif;
                 text-transform: uppercase;
 
@@ -68,20 +67,20 @@ main {
     margin: auto;
 
     #Principale {
-        padding: 200px;
+        padding: 12.5rem;
         text-align: center;
 
         h1 {
-            font-size: 40px;
+            font-size: 2.5rem;
             letter-spacing: 1.5px;
             font-family: 'Montserrat', sans-serif;
             text-transform: uppercase;
             color: black;
-            padding: 20px;
+            padding: 1.25rem;
         }
 
         p {
-            font-size: 30px;
+            font-size: 1.875rem;
             letter-spacing: 1.5px;
             font-family: 'Cardo', serif;
             color: black;
@@ -89,7 +88,7 @@ main {
     }
 
     #Moi {
-        padding: 30px;
+        padding: 1.875rem;
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
@@ -101,17 +100,17 @@ main {
         }
 
         h2 {
-            font-size: 36px;
+            font-size: 2.25rem;
             font-family: 'Montserrat', sans-serif;
             letter-spacing: 1.5px;
             text-transform: uppercase;
             color: black;
-            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
             text-align: center;
         }
 
         p {
-            font-size: 20px;
+            font-size: 1.25rem;
             letter-spacing: 1.5px;
             color: black;
             font-family: 'Cardo', serif;
@@ -125,11 +124,11 @@ main {
 @media screen and (max-width: 1024px) and (min-width: 375px){
     header {
         #header {
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 1.25rem;
+            padding-right: 1.25rem;
             nav{
                 a{
-                    font-size: 10px;
+                    font-size: 0.625rem;
                 }
             }
         }
@@ -142,7 +141,7 @@ main {
         #header{
             nav{
                 a{
-                    font-size: 9px;
+                    font-size: 0.563rem;
                 }
             }
         }
@@ -150,27 +149,18 @@ main {
     main{
         #Principale{
             h1{
-                font-size: 30px;
+                font-size: 1.875rem;
             }
             p{
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
         #Moi{
             h2{
-                font-size: 26px
+                font-size: 1.625rem;
             }
             p{
                 font-size: 1rem;
-            }
-        }
-    }
-    footer{
-        form{
-            .input{
-                label{
-                    font-size: 1rem;
-                }
             }
         }
     }

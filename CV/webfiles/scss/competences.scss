@@ -17,12 +17,12 @@ body {
 /* HEADER */
 header {
     h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 1.5px;
         color: black;
         text-align: center;
-        padding: 40px;
+        padding: 2.5rem;
         border-radius: 10px;
         text-transform: uppercase;
 
@@ -35,10 +35,10 @@ header {
 /* MAIN */
 main {
     h2 {
-        font-size: 30px;
+        font-size: 1.875rem;
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 1.5px;
-        padding: 10px;
+        padding: 0.625rem;
         text-transform: uppercase;
         border-radius: 10px;
         text-align: center;
@@ -49,10 +49,10 @@ main {
         }
     }
     p{
-        font-size: 20px;
+        font-size: 1.25rem;
         font-family: 'Cardo', serif;
         letter-spacing: 1.5px;
-        padding: 10px;  
+        padding: 0.625rem;  
     }
 
     img {
@@ -60,7 +60,7 @@ main {
         height: 48px;
         object-fit: cover;
         border-radius: 10px;
-        margin-right: 20px;
+        margin-right: 1.25rem;
     }
 
     ul {
@@ -70,8 +70,8 @@ main {
         list-style: none;
 
         li {
-            padding: 10px;
-            font-size: 20px;
+            padding: 0.625rem;
+            font-size: 1.25rem;
             font-family: 'Cardo', serif;
             letter-spacing: 1.5px;
         }

@@ -1,9 +1,7 @@
-@charset "UTF-8";
 /* TABLE DES MATIERES */
-/* GLOBAL 9 à 13*/
-/* HEADER 15 à 58*/
-/* MAIN  60 à 114*/
-/* FOOTER  117 à 157*/
+/* GLOBAL */
+/* HEADER */
+/* MAIN  */
 /* RESPONSIVE */
 /* TOUS LES ECRANS AVEC UNE LARGEUR DE
   - 1024px 
@@ -31,7 +29,7 @@ header #header {
 header #header img {
   width: 60px;
   height: 50px;
-  padding: 10px;
+  padding: 0.625rem;
   object-fit: cover;
 }
 header #header nav ul {
@@ -43,9 +41,9 @@ header #header nav li {
 header #header nav a {
   color: black;
   display: block;
-  padding: 10px;
+  padding: 0.625rem;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Cardo", serif;
   text-transform: uppercase;
 }
@@ -59,25 +57,25 @@ main {
   margin: auto;
 }
 main #Principale {
-  padding: 200px;
+  padding: 12.5rem;
   text-align: center;
 }
 main #Principale h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   letter-spacing: 1.5px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: black;
-  padding: 20px;
+  padding: 1.25rem;
 }
 main #Principale p {
-  font-size: 30px;
+  font-size: 1.875rem;
   letter-spacing: 1.5px;
   font-family: "Cardo", serif;
   color: black;
 }
 main #Moi {
-  padding: 30px;
+  padding: 1.875rem;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -88,88 +86,48 @@ main #Moi img {
   object-fit: cover;
 }
 main #Moi h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: black;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   text-align: center;
 }
 main #Moi p {
-  font-size: 20px;
+  font-size: 1.25rem;
   letter-spacing: 1.5px;
   color: black;
   font-family: "Cardo", serif;
   text-align: center;
-}
-
-/* FOOTER */
-footer {
-  max-width: 1024px;
-  margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-footer form {
-  max-width: 1024px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-footer form .input {
-  display: flex;
-  flex-direction: column;
-}
-footer form .input label {
-  padding: 10px;
-  font-size: 20px;
-  font-family: "Cardo", serif;
-}
-footer form .input input {
-  padding: 11px;
-  border: 2px solid white;
-  border-radius: 10px;
-}
-footer form .input textarea {
-  padding: 10px;
-  border: 2px solid white;
-  border-radius: 10px;
-}
-footer form #message {
-  padding-left: 14px;
 }
 
 /* RESPONSIVE */
 /* LES REGLES CSS SUIVANTES VONT S'APPLIQUER A TOUS LES ECRANS AYANT UNE LARGEUR MAXIMAL DE 1024 PX*/
 @media screen and (max-width: 1024px) and (min-width: 375px) {
   header #header {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
   header #header nav a {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
 }
 /* LES REGLES CSS SUIVANTES VONT S'APPLIQUER A TOUS LES ECRANS AYANT UNE LARGEUR MAXIMAL DE 768PX*/
 @media screen and (max-width: 768px) and (min-width: 375px) {
   header #header nav a {
-    font-size: 9px;
+    font-size: 0.563rem;
   }
   main #Principale h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   main #Principale p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   main #Moi h2 {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
   main #Moi p {
-    font-size: 1rem;
-  }
-  footer form .input label {
     font-size: 1rem;
   }
 }

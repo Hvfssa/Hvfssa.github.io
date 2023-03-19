@@ -16,12 +16,12 @@ body {
 
 /* HEADER */
 header h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1.5px;
   color: black;
   text-align: center;
-  padding: 40px;
+  padding: 2.5rem;
   border-radius: 10px;
   text-transform: uppercase;
 }
@@ -31,10 +31,10 @@ header h1:hover {
 
 /* MAIN */
 main h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1.5px;
-  padding: 10px;
+  padding: 0.625rem;
   text-transform: uppercase;
   border-radius: 10px;
   text-align: center;
@@ -43,27 +43,30 @@ main h2:hover {
   background-color: white;
 }
 main p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Cardo", serif;
   letter-spacing: 1.5px;
-  padding: 10px;
+  padding: 0.625rem;
   text-align: center;
 }
 main a {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Cardo", serif;
   letter-spacing: 1.5px;
-  padding: 10px;
+  padding: 0.625rem;
   text-align: center;
   text-decoration: none;
   color: black;
+}
+main a:hover {
+  text-decoration: underline;
 }
 main img {
   width: 40px;
   height: 35px;
   object-fit: cover;
   border-radius: 10px;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 main .flex {
   display: flex;
@@ -75,8 +78,8 @@ main .flex {
 footer {
   max-width: 1024px;
   margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 footer form {
   max-width: 1024px;
@@ -90,22 +93,22 @@ footer form .input {
   flex-direction: column;
 }
 footer form .input label {
-  padding: 10px;
-  font-size: 20px;
+  padding: 0.625rem;
+  font-size: 1.25rem;
   font-family: "Cardo", serif;
 }
 footer form .input input {
-  padding: 11px;
+  padding: 0.688rem;
   border: 2px solid white;
   border-radius: 10px;
 }
 footer form .input textarea {
-  padding: 10px;
+  padding: 0.625rem;
   border: 2px solid white;
   border-radius: 10px;
 }
 footer form #message {
-  padding-left: 14px;
+  padding-left: 0.875rem;
 }
 
 /*# sourceMappingURL=contact.css.map */

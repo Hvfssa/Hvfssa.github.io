@@ -5,10 +5,7 @@
 /* HEADER 20 à 30*/
 /* MAIN 38 à 98 */
 /* RESPONSIVE */
-/* TOUS LES ECRANS AVEC UNE LARGEUR DE
-  - 1024px 
-  - 768px
-  ET UNE LARGEUR MINIMAL DE 375px*/
+/* TOUS LES ECRANS AVEC UNE LARGEUR DE 1024px */
 /* GLOBAL */
 * {
   margin: 0;
@@ -22,13 +19,14 @@ body {
 
 /* HEADER */
 header h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1.5px;
   color: black;
   text-align: center;
-  padding: 40px;
+  padding: 2.5rem;
   border-radius: 10px;
+  text-transform: uppercase;
 }
 header h1:hover {
   background: linear-gradient(#DEB887, #FFE4C4, #FAEBD7, #FFE4C4, #DEB887);
@@ -37,7 +35,7 @@ header h1:hover {
 /* MAIN */
 main .Etude {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   max-width: 1024px;
   margin: auto;
 }
@@ -45,13 +43,14 @@ main .Etude .etudee {
   text-align: center;
 }
 main .Etude .etudee h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1.5px;
-  padding: 10px;
+  padding: 0.625rem;
+  text-transform: uppercase;
 }
 main .Etude .etudee time {
-  font-size: 26px;
+  font-size: 1.625rem;
   letter-spacing: 1.5px;
   font-family: "Cardo", serif;
 }
@@ -59,10 +58,10 @@ main .Etude img {
   width: 150px;
   height: 110px;
   object-fit: cover;
-  margin-right: 50px;
+  margin-right: 3.125rem;
 }
 main .localisation {
-  padding: 10px;
+  padding: 0.625rem;
   display: flex;
   align-items: center;
 }
@@ -70,25 +69,25 @@ main .localisation img {
   width: 20px;
   height: 25px;
   object-fit: cover;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 main .localisation p {
-  font-size: 20px;
+  font-size: 1.25rem;
   letter-spacing: 1.5px;
   font-family: "Cardo", serif;
 }
 main .diplome {
   display: flex;
-  padding: 10px;
+  padding: 0.625rem;
 }
 main .diplome img {
   width: 20px;
   height: 20px;
   object-fit: cover;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 main .diplome p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Cardo", serif;
   letter-spacing: 1.5px;
 }
@@ -97,8 +96,8 @@ main .diplome p {
 /* LES REGLES CSS SUIVANTES VONT S'APPLIQUER A TOUS LES ECRANS AYANT UNE LARGEUR MAXIMAL DE 1024 PX*/
 @media screen and (max-width: 1024px) {
   main {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
 }
 

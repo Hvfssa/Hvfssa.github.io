@@ -4,11 +4,6 @@
 /* BODY             */
 /* HEADER          */
 /* MAIN           */
-/* RESPONSIVE    */
-/* TOUS LES ECRANS AVEC UNE LARGEUR DE
-  - 1024px 
-  - 768px
-  ET UNE LARGEUR MINIMAL DE 375px*/
 /* GLOBAL */
 * {
   margin: 0;
@@ -22,12 +17,12 @@ body {
 
 /* HEADER */
 header h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1.5px;
   color: black;
   text-align: center;
-  padding: 40px;
+  padding: 2.5rem;
   border-radius: 10px;
   text-transform: uppercase;
 }
@@ -37,10 +32,10 @@ header h1:hover {
 
 /* MAIN */
 main #STAGE h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1.5px;
-  padding: 10px;
+  padding: 0.625rem;
   text-transform: uppercase;
   border-radius: 10px;
   text-align: center;
@@ -49,16 +44,16 @@ main #STAGE h2:hover {
   background-color: white;
 }
 main #STAGE time {
-  font-size: 20px;
+  font-size: 1.25rem;
   letter-spacing: 1.5px;
   font-family: "Cardo", serif;
-  padding: 5px;
+  padding: 0.313rem;
 }
 main #STAGE h3 {
-  font-size: 26px;
+  font-size: 1.625rem;
   font-family: "Cardo", serif;
   letter-spacing: 1.5px;
-  padding: 10px;
+  padding: 0.625rem;
   text-transform: uppercase;
 }
 main #STAGE #title {
@@ -70,12 +65,12 @@ main #STAGE ul {
   text-align: center;
 }
 main #STAGE ul li {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Cardo", serif;
   letter-spacing: 1.5px;
 }
 main .localisation {
-  padding: 10px;
+  padding: 0.625rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,22 +79,22 @@ main .localisation img {
   width: 20px;
   height: 25px;
   object-fit: cover;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 main .localisation p {
-  font-size: 20px;
+  font-size: 1.25rem;
   letter-spacing: 1.5px;
   font-family: "Cardo", serif;
 }
 main #Bénévolat {
-  margin-top: 50px;
-  margin-bottom: 10px;
+  margin-top: 3.125rem;
+  margin-bottom: 0.625rem;
 }
 main #Bénévolat h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1.5px;
-  padding: 10px;
+  padding: 0.625rem;
   text-transform: uppercase;
   border-radius: 10px;
   text-align: center;
@@ -111,7 +106,7 @@ main #Bénévolat ul {
   text-align: center;
 }
 main #Bénévolat ul li {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Cardo", serif;
   letter-spacing: 1.5px;
 }
